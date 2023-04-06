@@ -2065,7 +2065,7 @@ StScrollBar {
     .app-folder-dialog .page-indicators .page-indicator-icon {
       background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
-    background-color: rgba(0, 0, 0, 0.7); }
+    background-color: #242424; }
   .app-folder-dialog .page-navigation-arrow > StIcon {
     color: rgba(0, 0, 0, 0.8); }
   .app-folder-dialog .page-navigation-arrow:insensitive > StIcon {
