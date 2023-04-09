@@ -286,7 +286,6 @@ StEntry {
   border-radius: 8px;
   padding: 8px;
   color: rgba(0, 0, 0, 0.8);
-  box-shadow: none;
   background-color: white;
   color: rgba(0, 0, 0, 0.5);
   border: 2px solid white;
@@ -369,8 +368,7 @@ StEntry {
   -slider-handle-radius: 8px;
   -slider-handle-border-width: 1px;
   -slider-handle-border-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  height: 18px; }
+  color: white; }
 
 /* Scrollbars */
 StScrollView.vfade {
@@ -1806,16 +1804,13 @@ StScrollBar {
 .search-section {
   spacing: 18px; }
   .search-section .search-section-separator {
-    height: 1px;
-    margin: 0 304px;
-    margin-top: 1px;
-    margin-bottom: 6px;
-    background-color: rgba(255, 255, 255, 0.3); }
+    height: 8px;
+    background-color: transparent; }
 
 .search-section-content {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   padding: 12px;
   margin: 0 12px; }
@@ -1872,7 +1867,7 @@ StScrollBar {
   spacing: 12px; }
 
 .list-search-result .list-search-result-description {
-  color: rgba(211, 211, 211, 0.8); }
+  color: lightgray; }
 
 /* Dash */
 #dash {
@@ -1890,7 +1885,6 @@ StScrollBar {
 .dash-background {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 28px;
-  border-color: transparent;
   padding: 12px;
   spacing: 6px;
   margin-bottom: 12px; }
@@ -1932,13 +1926,13 @@ StScrollBar {
     background-color: rgba(53, 132, 228, 0.2); }
 
 .dash-item-container .show-apps, .dash-item-container .app-well-app, .dash-item-container .grid-search-result {
-  color: white;
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  color: white; }
 
 .dash-separator {
   width: 1px;
   margin: 0 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   margin-bottom: 12px; }
 
 .dash-label {
@@ -2071,7 +2065,7 @@ StScrollBar {
     .app-folder-dialog .page-indicators .page-indicator-icon {
       background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
-    background-color: #242424; }
+    background-color: #dad6d2; }
   .app-folder-dialog .page-navigation-arrow > StIcon {
     color: rgba(0, 0, 0, 0.8); }
   .app-folder-dialog .page-navigation-arrow:insensitive > StIcon {
@@ -2180,8 +2174,7 @@ StScrollBar {
   spacing: 6px;
   padding: 6px; }
   .workspace-thumbnails .workspace-thumbnail {
-    border-radius: 3px;
-    border-color: transparent; }
+    border-radius: 3px; }
   .workspace-thumbnails .placeholder {
     background-image: url("workspace-placeholder.svg");
     background-size: contain;
