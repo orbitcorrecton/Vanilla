@@ -286,7 +286,6 @@ StEntry {
   border-radius: 8px;
   padding: 8px;
   color: white;
-  box-shadow: none;
   background-color: #3c3c3c;
   color: rgba(255, 255, 255, 0.7);
   border: 2px solid #3c3c3c;
@@ -368,8 +367,7 @@ StEntry {
   -barlevel-overdrive-separator-width: 1px;
   -slider-handle-radius: 8px;
   -slider-handle-border-width: 1px;
-  -slider-handle-border-color: transparent;
-  height: 18px; }
+  -slider-handle-border-color: transparent; }
 
 /* Scrollbars */
 StScrollView.vfade {
@@ -1005,7 +1003,6 @@ StScrollBar {
   width: 34em;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  border-color: transparent;
   margin: 4px; }
   .notification-banner .notification-actions {
     spacing: 0; }
@@ -1876,7 +1873,6 @@ StScrollBar {
 .dash-background {
   background-color: #303030;
   border-radius: 28px;
-  border-color: transparent;
   padding: 12px;
   spacing: 6px;
   margin-bottom: 12px; }
@@ -2092,8 +2088,7 @@ StScrollBar {
   spacing: 6px;
   padding: 6px; }
   .workspace-thumbnails .workspace-thumbnail {
-    border-radius: 3px;
-    border-color: transparent; }
+    border-radius: 3px; }
   .workspace-thumbnails .placeholder {
     background-image: url("workspace-placeholder.svg");
     background-size: contain;
