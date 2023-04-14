@@ -2062,9 +2062,10 @@ StScrollBar {
     page-padding-bottom: 0;
     page-padding-left: 0;
     page-padding-right: 0; }
-  .app-folder-dialog .page-indicators .page-indicator-icon {
-    background-color: #dad6d2;
+  .app-folder-dialog .page-indicators {
     margin-bottom: 18px; }
+    .app-folder-dialog .page-indicators .page-indicator-icon {
+      background-color: #dad6d2; }
   .app-folder-dialog .app-well-app-running-dot {
     background-color: #242424; }
   .app-folder-dialog .page-navigation-arrow > StIcon {
