@@ -2772,15 +2772,18 @@ StScrollBar {
 
 .unlock-dialog StEntry {
   border: none !important; }
-  .unlock-dialog StEntry StLabel.hint-text {
-    margin-left: 2px;
-    color: rgba(255, 255, 255, 0.7); }
   .unlock-dialog StEntry:focus {
     color: white;
     background-color: rgba(255, 255, 255, 0.1); }
+    .unlock-dialog StEntry:focus StLabel.hint-text {
+      margin-left: 2px;
+      color: rgba(255, 255, 255, 0.7); }
   .unlock-dialog StEntry:insensitive {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.05); }
+    .unlock-dialog StEntry:insensitive StLabel.hint-text {
+      margin-left: 2px;
+      color: rgba(255, 255, 255, 0.7); }
 
 .unlock-dialog .cancel-button,
 .unlock-dialog .switch-user-button,
