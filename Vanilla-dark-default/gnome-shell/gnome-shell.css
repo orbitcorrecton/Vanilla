@@ -366,8 +366,9 @@ StEntry {
   -barlevel-overdrive-border-color: transparent;
   -barlevel-overdrive-separator-width: 1px;
   -slider-handle-radius: 8px;
-  -slider-handle-border-width: 0;
-  -slider-handle-border-color: transparent; }
+  -slider-handle-border-width: 1px;
+  -slider-handle-border-color: transparent;
+  height: 18px; }
 
 /* Scrollbars */
 StScrollView.vfade {
@@ -1460,7 +1461,7 @@ StScrollBar {
   #panel.unlock-screen, #panel.login-screen, #panel:overview {
     background-color: transparent; }
   #panel .panel-button {
-    font-weight: bold;
+    font-weight: normal;
     color: #f2f2f2;
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
