@@ -1478,15 +1478,15 @@ StScrollBar {
       border: 3px solid transparent;
       border-radius: 99px; }
     #panel .panel-button.screen-recording-indicator {
-      box-shadow: inset 0 0 0 100px #e01b24; }
+      box-shadow: inset 0 0 0 100px #e01b24;
+      color: white; }
     #panel .panel-button.screen-sharing-indicator {
-      box-shadow: inset 0 0 0 100px #e5a50a; }
+      box-shadow: inset 0 0 0 100px #e5a50a;
+      color: white; }
       #panel .panel-button.screen-sharing-indicator StBoxLayout {
-        margin: 0 6px;
-        color: #f2f2f2; }
+        margin: 0 6px; }
     #panel .panel-button.screen-recording-indicator StBoxLayout, #panel .panel-button.screen-sharing-indicator StBoxLayout {
-      spacing: 6px;
-      color: #f2f2f2; }
+      spacing: 6px; }
     #panel .panel-button.screen-recording-indicator StIcon, #panel .panel-button.screen-sharing-indicator StIcon {
       icon-size: 1.09em; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
@@ -1531,7 +1531,7 @@ StScrollBar {
     #panel .panel-button#panelActivities {
       -natural-hpadding: 18px; }
   #panel.unlock-screen .panel-button, #panel.login-screen .panel-button, #panel:overview .panel-button {
-    color: #f2f2f2; }
+    color: white; }
     #panel.unlock-screen .panel-button:active, #panel.unlock-screen .panel-button:overview, #panel.unlock-screen .panel-button:focus, #panel.unlock-screen .panel-button:checked, #panel.login-screen .panel-button:active, #panel.login-screen .panel-button:overview, #panel.login-screen .panel-button:focus, #panel.login-screen .panel-button:checked, #panel:overview .panel-button:active, #panel:overview .panel-button:overview, #panel:overview .panel-button:focus, #panel:overview .panel-button:checked {
       box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.15); }
       #panel.unlock-screen .panel-button:active.clock-display, #panel.unlock-screen .panel-button:overview.clock-display, #panel.unlock-screen .panel-button:focus.clock-display, #panel.unlock-screen .panel-button:checked.clock-display, #panel.login-screen .panel-button:active.clock-display, #panel.login-screen .panel-button:overview.clock-display, #panel.login-screen .panel-button:focus.clock-display, #panel.login-screen .panel-button:checked.clock-display, #panel:overview .panel-button:active.clock-display, #panel:overview .panel-button:overview.clock-display, #panel:overview .panel-button:focus.clock-display, #panel:overview .panel-button:checked.clock-display {
@@ -1705,6 +1705,7 @@ StScrollBar {
       padding: 9px;
       background-color: white; }
       .quick-toggle-menu .header .icon.active {
+        color: #fff;
         background-color: #3584e4; }
 
 .quick-settings-system-item > StBoxLayout {
@@ -1727,7 +1728,7 @@ StScrollBar {
   spacing: 12px; }
 
 #overviewGroup {
-  background-color: gray; }
+  background-color: #8c8c8c; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -1812,9 +1813,9 @@ StScrollBar {
     background-color: rgba(255, 255, 255, 0.6); }
 
 .search-section-content {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
   color: white;
   padding: 12px;
   margin: 0 12px; }
@@ -2777,24 +2778,21 @@ StScrollBar {
 
 .unlock-dialog StEntry {
   border: none !important; }
-  .unlock-dialog StEntry:focus {
+  .unlock-dialog StEntry, .unlock-dialog StEntry:focus {
     color: white;
     background-color: rgba(255, 255, 255, 0.1); }
-    .unlock-dialog StEntry:focus StLabel.hint-text {
-      margin-left: 2px;
-      color: rgba(255, 255, 255, 0.7); }
   .unlock-dialog StEntry:insensitive {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.05); }
-    .unlock-dialog StEntry:insensitive StLabel.hint-text {
-      margin-left: 2px;
-      color: rgba(255, 255, 255, 0.7); }
+  .unlock-dialog StEntry StLabel.hint-text {
+    margin-left: 2px;
+    color: rgba(255, 255, 255, 0.7); }
 
 .unlock-dialog .cancel-button,
 .unlock-dialog .switch-user-button,
 .unlock-dialog .login-dialog-session-list-button {
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: rgba(246, 245, 244, 0.1); }
   .unlock-dialog .cancel-button:hover, .unlock-dialog .cancel-button:active,
   .unlock-dialog .switch-user-button:hover,
   .unlock-dialog .switch-user-button:active,
