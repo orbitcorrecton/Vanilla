@@ -1701,6 +1701,7 @@ StScrollBar {
       padding: 9px;
       background-color: white; }
       .quick-toggle-menu .header .icon.active {
+        color: #fff;
         background-color: #3584e4; }
 
 .quick-settings-system-item > StBoxLayout {
@@ -1723,7 +1724,7 @@ StScrollBar {
   spacing: 12px; }
 
 #overviewGroup {
-  background-color: gray; }
+  background-color: #8c8c8c; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -1808,9 +1809,9 @@ StScrollBar {
     background-color: rgba(255, 255, 255, 0.6); }
 
 .search-section-content {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
   color: white;
   padding: 12px;
   margin: 0 12px; }
@@ -2773,24 +2774,21 @@ StScrollBar {
 
 .unlock-dialog StEntry {
   border: none !important; }
-  .unlock-dialog StEntry:focus {
+  .unlock-dialog StEntry, .unlock-dialog StEntry:focus {
     color: white;
     background-color: rgba(255, 255, 255, 0.1); }
-    .unlock-dialog StEntry:focus StLabel.hint-text {
-      margin-left: 2px;
-      color: rgba(255, 255, 255, 0.7); }
   .unlock-dialog StEntry:insensitive {
     color: rgba(255, 255, 255, 0.5);
     background-color: rgba(255, 255, 255, 0.05); }
-    .unlock-dialog StEntry:insensitive StLabel.hint-text {
-      margin-left: 2px;
-      color: rgba(255, 255, 255, 0.7); }
+  .unlock-dialog StEntry StLabel.hint-text {
+    margin-left: 2px;
+    color: rgba(255, 255, 255, 0.7); }
 
 .unlock-dialog .cancel-button,
 .unlock-dialog .switch-user-button,
 .unlock-dialog .login-dialog-session-list-button {
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: rgba(246, 245, 244, 0.1); }
   .unlock-dialog .cancel-button:hover, .unlock-dialog .cancel-button:active,
   .unlock-dialog .switch-user-button:hover,
   .unlock-dialog .switch-user-button:active,
