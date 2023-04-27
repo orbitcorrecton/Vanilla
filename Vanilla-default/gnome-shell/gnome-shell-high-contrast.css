@@ -456,9 +456,11 @@ StScrollBar {
   .popup-menu-item:rtl {
     padding-right: 6px; }
   .popup-menu-item:focus, .popup-menu-item:hover {
-    background-color: #ebebeb !important; }
+    background-color: #d1d1d1 !important; }
     .popup-menu-item:focus:active, .popup-menu-item:hover:active {
-      background-color: #e6e6e6 !important; }
+      background-color: #e3e3e3 !important; }
+    .popup-menu-item:focus:checked, .popup-menu-item:hover:checked {
+      background-color: #e0e0e0 !important; }
   .popup-menu-item:checked {
     background-color: #e0e0e0 !important; }
   .popup-menu-item:checked {
