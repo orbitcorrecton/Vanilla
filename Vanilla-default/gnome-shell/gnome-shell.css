@@ -71,7 +71,7 @@ stage {
   #LookingGlassDialog > #Toolbar .lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .edit-folder-button:hover, .button:hover, .icon-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(245, 245, 244, 0.99); }
+    background-color: rgba(231, 229, 228, 0.99); }
   #LookingGlassDialog > #Toolbar .lg-toolbar-button:insensitive, .app-folder-dialog .folder-name-container .edit-folder-button:insensitive, .button:insensitive, .icon-button:insensitive {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.3);
@@ -79,15 +79,15 @@ stage {
   #LookingGlassDialog > #Toolbar .lg-toolbar-button:active, .app-folder-dialog .folder-name-container .edit-folder-button:active, .button:active, .icon-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(252, 252, 252, 0.99); }
+    background-color: rgba(224, 222, 220, 0.99); }
   #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .edit-folder-button:checked, .button:checked, .icon-button:checked {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(255, 255, 255, 0.99); }
+    background-color: rgba(216, 214, 212, 0.99); }
     #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked:hover, .app-folder-dialog .folder-name-container .edit-folder-button:checked:hover, .button:checked:hover, .icon-button:checked:hover {
-      background-color: rgba(255, 255, 255, 0.99); }
+      background-color: rgba(209, 206, 204, 0.99); }
     #LookingGlassDialog > #Toolbar .lg-toolbar-button:checked:active, .app-folder-dialog .folder-name-container .edit-folder-button:checked:active, .button:checked:active, .icon-button:checked:active {
-      background-color: rgba(255, 255, 255, 0.99); }
+      background-color: rgba(202, 199, 196, 0.99); }
   #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button, .app-folder-dialog .folder-name-container .flat.edit-folder-button, .flat.button, .flat.icon-button {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
@@ -107,7 +107,7 @@ stage {
     #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:hover, .app-folder-dialog .folder-name-container .flat.edit-folder-button:hover, .flat.button:hover, .flat.icon-button:hover {
       transition-duration: 100ms;
       color: rgba(0, 0, 0, 0.8);
-      background-color: rgba(245, 245, 244, 0.99); }
+      background-color: rgba(231, 229, 228, 0.99); }
     #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:insensitive, .app-folder-dialog .folder-name-container .flat.edit-folder-button:insensitive, .flat.button:insensitive, .flat.icon-button:insensitive {
       transition-duration: 100ms;
       color: rgba(0, 0, 0, 0.3);
@@ -115,15 +115,15 @@ stage {
     #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:active, .app-folder-dialog .folder-name-container .flat.edit-folder-button:active, .flat.button:active, .flat.icon-button:active {
       transition-duration: 100ms;
       color: rgba(0, 0, 0, 0.8);
-      background-color: rgba(252, 252, 252, 0.99); }
+      background-color: rgba(224, 222, 220, 0.99); }
     #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:checked, .app-folder-dialog .folder-name-container .flat.edit-folder-button:checked, .flat.button:checked, .flat.icon-button:checked {
       transition-duration: 100ms;
       color: rgba(0, 0, 0, 0.8);
-      background-color: rgba(255, 255, 255, 0.99); }
+      background-color: rgba(216, 214, 212, 0.99); }
       #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:checked:hover, .app-folder-dialog .folder-name-container .flat.edit-folder-button:checked:hover, .flat.button:checked:hover, .flat.icon-button:checked:hover {
-        background-color: rgba(255, 255, 255, 0.99); }
+        background-color: rgba(209, 206, 204, 0.99); }
       #LookingGlassDialog > #Toolbar .flat.lg-toolbar-button:checked:active, .app-folder-dialog .folder-name-container .flat.edit-folder-button:checked:active, .flat.button:checked:active, .flat.icon-button:checked:active {
-        background-color: rgba(255, 255, 255, 0.99); }
+        background-color: rgba(202, 199, 196, 0.99); }
 
 .modal-dialog .modal-dialog-linked-button, .hotplug-notification-item, .notification-banner .notification-button {
   padding: 12px;
@@ -153,19 +153,19 @@ stage {
   .modal-dialog .modal-dialog-linked-button:hover, .hotplug-notification-item:hover, .notification-banner .notification-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(218, 215, 211, 0.99); }
+    background-color: rgba(204, 199, 195, 0.99); }
   .modal-dialog .modal-dialog-linked-button:active, .hotplug-notification-item:active, .notification-banner .notification-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(225, 222, 220, 0.99); }
+    background-color: rgba(197, 192, 186, 0.99); }
   .modal-dialog .modal-dialog-linked-button:checked, .hotplug-notification-item:checked, .notification-banner .notification-button:checked {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(232, 230, 228, 0.99); }
+    background-color: rgba(190, 184, 178, 0.99); }
     .modal-dialog .modal-dialog-linked-button:checked:hover, .hotplug-notification-item:checked:hover, .notification-banner .notification-button:checked:hover {
-      background-color: rgba(239, 238, 236, 0.99); }
+      background-color: rgba(183, 176, 170, 0.99); }
     .modal-dialog .modal-dialog-linked-button:checked:active, .hotplug-notification-item:checked:active, .notification-banner .notification-button:checked:active {
-      background-color: rgba(246, 245, 244, 0.99); }
+      background-color: rgba(176, 169, 162, 0.99); }
   .modal-dialog .modal-dialog-linked-button:first-child:ltr, .hotplug-notification-item:first-child:ltr, .notification-banner .notification-button:first-child:ltr {
     border-radius: 0 0 0 10px; }
   .modal-dialog .modal-dialog-linked-button:last-child:ltr, .hotplug-notification-item:last-child:ltr, .notification-banner .notification-button:last-child:ltr {
@@ -424,9 +424,9 @@ StScrollBar {
   .popup-menu-item:rtl {
     padding-right: 6px; }
   .popup-menu-item:focus, .popup-menu-item:hover {
-    background-color: #d8d4d0 !important; }
+    background-color: #efedec !important; }
     .popup-menu-item:focus:active, .popup-menu-item:hover:active {
-      background-color: #e8e6e3 !important; }
+      background-color: #ebe8e6 !important; }
     .popup-menu-item:focus:checked, .popup-menu-item:hover:checked {
       background-color: #e6e3e0 !important; }
   .popup-menu-item:checked {
@@ -567,11 +567,11 @@ StScrollBar {
   .datemenu-today-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .datemenu-today-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .datemenu-today-button:insensitive .day-label, .datemenu-today-button:insensitive .date-label {
     color: rgba(148, 147, 146, 0.9); }
 
@@ -606,11 +606,11 @@ StScrollBar {
   .calendar:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .calendar:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .calendar .calendar-month-header .calendar-change-month-back StIcon,
   .calendar .calendar-month-header .calendar-change-month-forward StIcon {
     icon-size: 1.09em; }
@@ -706,11 +706,11 @@ StScrollBar {
   .events-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .events-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .events-button .events-box {
     spacing: 6px; }
   .events-button .events-list {
@@ -744,11 +744,11 @@ StScrollBar {
   .world-clocks-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .world-clocks-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .world-clocks-button .world-clocks-grid {
     spacing-rows: 6px;
     spacing-columns: 12px; }
@@ -788,11 +788,11 @@ StScrollBar {
   .weather-button:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .weather-button:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .weather-button .weather-box {
     spacing: 10px; }
   .weather-button .weather-header-box {
@@ -877,11 +877,11 @@ StScrollBar {
   .message:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .message:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
   .message .message-icon-bin {
     padding: 18px; }
     .message .message-icon-bin:ltr {
@@ -1687,7 +1687,7 @@ StScrollBar {
     margin-right: 6px; }
 
 .quick-toggle-menu {
-  background-color: #ebe8e6;
+  background-color: #f6f5f4;
   border-radius: 24px;
   padding: 12px;
   margin: 12px 18px 0; }
@@ -2092,11 +2092,11 @@ StScrollBar {
   .app-folder-dialog .page-navigation-arrow:hover > StIcon {
     transition-duration: 100ms;
     color: white;
-    background-color: rgba(73, 73, 73, 0.525); }
+    background-color: rgba(57, 57, 57, 0.525); }
   .app-folder-dialog .page-navigation-arrow:active > StIcon {
     transition-duration: 100ms;
     color: white;
-    background-color: rgba(80, 80, 80, 0.525); }
+    background-color: rgba(50, 50, 50, 0.525); }
 
 .app-folder-dialog-container {
   padding: 12px;
@@ -2171,12 +2171,12 @@ StScrollBar {
 .page-navigation-arrow:hover > StIcon {
   transition-duration: 100ms;
   color: white;
-  background-color: rgba(255, 255, 255, 0.145); }
+  background-color: rgba(244, 242, 242, 0.145); }
 
 .page-navigation-arrow:active > StIcon {
   transition-duration: 100ms;
   color: white;
-  background-color: rgba(255, 255, 255, 0.145); }
+  background-color: rgba(237, 233, 233, 0.145); }
 
 /* Workspace pager */
 .workspace-thumbnails {
@@ -2541,11 +2541,11 @@ StScrollBar {
   .lg-extension:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(234, 232, 230, 0.99); }
+    background-color: rgba(220, 216, 214, 0.99); }
   .lg-extension:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(241, 240, 239, 0.99); }
+    background-color: rgba(213, 208, 205, 0.99); }
 
 .lg-extension-meta {
   spacing: 6px; }
