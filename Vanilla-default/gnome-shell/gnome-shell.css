@@ -462,19 +462,19 @@ StScrollBar {
   .popup-menu-item:focus, .popup-menu-item:hover {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(231, 231, 231, 0.982); }
+    background-color: rgba(224, 222, 221, 0.982); }
   .popup-menu-item:active {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(224, 224, 224, 0.982); }
+    background-color: rgba(216, 215, 213, 0.982); }
   .popup-menu-item:checked {
     transition-duration: 100ms;
     color: rgba(0, 0, 0, 0.8);
-    background-color: rgba(216, 216, 216, 0.982); }
+    background-color: rgba(209, 207, 205, 0.982); }
     .popup-menu-item:checked:hover {
-      background-color: rgba(208, 208, 208, 0.982); }
+      background-color: rgba(202, 199, 197, 0.982); }
     .popup-menu-item:checked:active {
-      background-color: rgba(201, 201, 201, 0.982); }
+      background-color: rgba(194, 192, 189, 0.982); }
   .popup-menu-item:checked {
     border-radius: 12px 12px 0 0 !important; }
   .popup-menu-item .toggle-switch:ltr {
@@ -1197,6 +1197,8 @@ StScrollBar {
   margin-bottom: 6px; }
   .polkit-dialog-user-layout .polkit-dialog-user-root-label {
     color: #e5a50a; }
+  .polkit-dialog-user-layout .user-icon StIcon {
+    color: rgba(0, 0, 0, 0.8); }
 
 /* Audio selection dialog */
 .audio-device-selection-dialog .modal-dialog-content-box {
@@ -1424,7 +1426,7 @@ StScrollBar {
   .screenshot-ui-shot-cast-button:hover, .screenshot-ui-shot-cast-button:focus {
     background-color: #424242; }
   .screenshot-ui-shot-cast-button:active {
-    background-color: #f6f5f4; }
+    background-color: #606060; }
   .screenshot-ui-shot-cast-button:checked {
     background-color: white;
     color: black; }
@@ -1775,7 +1777,6 @@ StScrollBar {
   transition-duration: 100ms;
   color: rgba(0, 0, 0, 0.8);
   background-color: rgba(231, 230, 229, 0.982);
-  background-color: #f6f5f4;
   border-radius: 24px;
   padding: 12px;
   margin: 12px 18px 0; }
@@ -1808,7 +1809,7 @@ StScrollBar {
       icon-size: 1.635em;
       border-radius: 999px;
       padding: 9px;
-      background-color: white; }
+      background-color: rgba(246, 245, 244, 0.8); }
       .quick-toggle-menu .header .icon.active {
         color: #ffffff;
         background-color: #3584e4; }
