@@ -18,10 +18,6 @@ $dash_background_color: lighten($system_bg_color, 5%);
 $dash_placeholder_size: 32px;
 $dash_padding: $base_padding*2; // 12px
 $dash_border_radius: $modal_radius + $dash_padding;
-
-// Dash to dock specifics
-$dash_padding: $base_padding + 4px; // 10px
-$dash_border_radius: $modal_radius * 1.5;
 /* Default Ubuntu Dock styling, append !important to any changed rules
    This must be in sync with
    - https://github.com/micheleg/dash-to-dock/blob/ubuntu-dock/_stylesheet.scss
@@ -104,7 +100,7 @@ $dock_icons_distance: 4px;
         @if is_horizontal($side) {
             padding-left: $padding;
         } @else {
-            padding-top: $padding +32px;
+            padding-top: $padding;
         }
     } @else if $chid == last {
         @if is_horizontal($side) {
@@ -179,7 +175,7 @@ $dock_style_modes: [null, shrink, extended, extended-shrink];
             }
 
             .dash-separator {
-                //background-color: $borders_color;
+                //background-color: $borders_color_dark;
                 @if is_horizontal($side) {
                     margin: 0 $margin;
                     width: 1px;
@@ -423,8 +419,8 @@ $dock_style_modes: [null, shrink, extended, extended-shrink];
 
 /* Yaru Dock styling */
 
-//$dock_color: $panel_bg_color;
-$panel_transition_duration: 250ms; // same as the overview transition duration
+$dock_color: lighten($system_bg_color, 5%); //$panel_bg_color;
+$panel_transition_duration: 250ms;
 
 @each $side in bottom, top, left, right {
     #dashtodockContainer.#{$side} {
@@ -435,7 +431,7 @@ $panel_transition_duration: 250ms; // same as the overview transition duration
             padding: 0px;
 
             .dash-background {
-                //background: transparentize($dock_color, 0.25);
+                //background: transparentize($dock_color, 0.8);
                 transition-duration: $panel_transition_duration;
             }
 
@@ -449,7 +445,7 @@ $panel_transition_duration: 250ms; // same as the overview transition duration
             &.dashtodock #dash,
             &.shrink #dash {
                 .dash-background {
-                    //background-color: transparent; //$dock_color;
+                    background-color: transparent; //$dock_color;
                 }
             }
         }
